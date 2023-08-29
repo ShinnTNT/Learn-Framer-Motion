@@ -6,6 +6,7 @@ import MenuBar from "./tests/menu-bar";
 import CountTimer from "./tests/count-timer";
 import CategorySelect from "./tests/category-selector";
 import Reorder from "./tests/Reorder";
+import Scroll from "./tests/Scroll";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         <Route path="/count-timer" element={<CountTimer />} />
         <Route path="/category-select" element={<CategorySelect />} />
         <Route path="/reorder-item" element={<Reorder />} />
+        <Route path="/scroll" element={<Scroll />} />
       </Routes>
     </Suspense>
   );
