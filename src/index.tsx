@@ -8,6 +8,7 @@ import CategorySelect from "./tests/category-selector";
 import Reorder from "./tests/Reorder";
 import Scroll from "./tests/Scroll";
 import ScrollTriggerAnimation from "./tests/ScrollTriggerAnimation";
+import AnimatedText from "./tests/AnimatedText";
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
           path="/scroll-trigger-animation"
           element={<ScrollTriggerAnimation />}
         />
+        <Route path="/animated-text" element={<AnimatedText />} />
       </Routes>
     </Suspense>
   );
