@@ -9,6 +9,7 @@ import Reorder from "./tests/Reorder";
 import Scroll from "./tests/Scroll";
 import ScrollTriggerAnimation from "./tests/ScrollTriggerAnimation";
 import AnimatedText from "./tests/AnimatedText";
+import ScrollYAnimation from "./tests/ScrollYAnimation";
 
 const Index = () => {
   return (
@@ -25,6 +26,7 @@ const Index = () => {
           element={<ScrollTriggerAnimation />}
         />
         <Route path="/animated-text" element={<AnimatedText />} />
+        <Route path="/scroll-y-animation" element={<ScrollYAnimation />} />
       </Routes>
     </Suspense>
   );
